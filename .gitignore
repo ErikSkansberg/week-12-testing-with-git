@@ -329,3 +329,5 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 /week 11/week 11.sln
+/Can I add a second program/Can I add a second program.sln
+*.pyproj
