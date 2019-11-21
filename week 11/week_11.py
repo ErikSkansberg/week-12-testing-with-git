@@ -33,3 +33,10 @@ def ScoreFinder(a,b,c):
 
     if count == 0:
         print("OUTPUT Could not find Player")
+def Union(a,b):
+    list = []
+    total = a + b
+    for i in total:
+        if i not in list:
+            list.append(i)
+    return PrintOutput(list)
