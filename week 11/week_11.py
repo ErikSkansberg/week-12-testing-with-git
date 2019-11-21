@@ -40,3 +40,20 @@ def Union(a,b):
         if i not in list:
             list.append(i)
     return PrintOutput(list)
+def Intersection(a,b):
+    List = []
+    c = a + b
+    d = [c[i] for i in range(len(c)) if c[i] in c[:i]]
+
+    for i in d:
+        if i not in C:
+            C.append(i)
+    C.reverse()
+    
+    return PrintOutput(C)
+def NotIn(a,b):
+    C = []
+    for i in a:
+        if i not in b:
+            C.append(i)
+    return PrintOutput(C)
