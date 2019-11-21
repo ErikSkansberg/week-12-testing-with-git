@@ -31,7 +31,9 @@ NotIn takes in two lists and returns a single list that is all values in the fir
 OUTPUT ["Melvin", "Martian", "Baka"]
 README.md File
 In addition to your code, create a README.md file that describes the software development method you used to create each function along with your typical header information, such as:
-        #   visual studios
+
+
+#   visual studios
         #   Erik Skanerg 
         #  ​CSCI 102 – Section A
         #   Week 12 - Part A
