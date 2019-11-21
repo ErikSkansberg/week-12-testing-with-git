@@ -6,4 +6,8 @@ def LoadFile(filename):
     Line = []
     for line in Fin:
         Line.append(''.join(line))
-    print(Line)
+    PrintOutput(Line)
+def UpdateString(str1,str2,num):
+    word1 = list(str1)
+    word1[num] = str2
+    print(word1)
