@@ -52,8 +52,9 @@ def Intersection(a,b):
     
     return PrintOutput(C)
 def NotIn(a,b):
-    C = []
+    mylist = []
     for i in a:
         if i not in b:
-            C.append(i)
-    return PrintOutput(C)
+            mylist.append(i)
+    return PrintOutput(mylist)
+
