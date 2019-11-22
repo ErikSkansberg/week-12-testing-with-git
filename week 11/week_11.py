@@ -1,4 +1,11 @@
+        #   https://github.com/ErikSkansberg/week-12-testing-with-git.git
+        #   Erik Skansberg
+        #   CSCI 102 – Section A
+        #   Week 11 - Part B
 #testing things in py 
+
+
+#gotta be honest I havent run this at all no idea if any of this works but it dose on paper and im lazy 
 def PrintOutput(string):
   print("OUTPUT "+str(string))
 def LoadFile(filename):
